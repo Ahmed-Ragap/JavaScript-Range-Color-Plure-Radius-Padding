@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>color & border &_range JS</title>
+</head>
+<body>
+    
+<div class="container">
+
+    <h2>generate style for border color</h2>
+    <div class="main">
+     <div class="item">
+        <label for="spacing"> spacing</label>
+        <input id="spacing" type="range" name="space" min="0" max="50" value="0" data-sizing='px'> 
+     </div>
+     <!--  -->
+     <div class="item">
+        <label for="#blur"> blur</label>
+        <input id="blur" type="range" name="blur" min="0" max="15" value="0" data-sizing='px'> 
+     </div>
+     <!--  --> <div class="item">
+        <label for="#radius"> border radius</label>
+        <input id="radius" type="range" name="border_radius"  value="0"  min="0" max="50"  data-sizing='px'> 
+     </div>
+     <div class="item">
+        <label for="#color"> color</label>
+        <input id="color" type="color" name="border_color"  value="#ff5500"> 
+     </div>
+     <!--  -->
+    
+    </div>
+    <img src="./1.jpg" alt="">
+</div>
+
+
+
+
+
+
+
+
+    <script src="./index.js"></script>
+</body>
+</html>
